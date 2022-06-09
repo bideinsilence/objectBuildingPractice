@@ -22,7 +22,7 @@ collisionDetect() {
         if (!(this === ball)) {
             // Distance (hypotenuse of a right triangle) is equal to the
             // square root of the squared x and y distances (legs) added
-            // togther; Pythagorean Theorem c = √(x^2 + y^2)
+            // togther; Pythagorean Theorem c = √(a^2 + b^2)
             const dx = this.x - ball.x;
             const dy = this.y - ball.y;
             const distance = Math.sqrt(dx ** 2  + dy ** 2);
